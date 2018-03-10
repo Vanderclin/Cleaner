@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Globals -->
     <string name="app_name">Cleaner</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="developer_name" translatable="false">Vanderclin Rocha</string>
+
+    <!-- Menu items -->
+    <string name="action_clean">Limpar</string>
+    <string name="action_rescan">Analizar</string>
+    <string name="action_search">Procurar</string>
+    <string name="action_sort_by_name">Classificar por nome</string>
+    <string name="action_sort_by_size">Classificar por tamanho</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- Apps list header -->
+    <string name="apps_list_header_title">Memória do dispositivo</string>
+    <string name="apps_list_header_used_prefix">Em uso</string>
+    <string name="apps_list_header_cache_prefix">Cache</string>
+    <string name="apps_list_header_free_prefix">Livre</string>
+    <string name="apps_list_header_footer">Utilização de cache</string>
+    <string name="apps_list_header_memory"><xliff:g id="memory">%1$s</xliff:g></string>
+
+    <!-- Empty list view -->
+    <string name="empty_cache">Cache vazio</string>
+    <string name="no_such_app">Aplicação inexistente</string>
+
+    <!-- Progress bar -->
+    <string name="scanning">Análise…</string>
+    <string name="scanning_m_of_n">Analisando %1$d/%2$d</string>
+
+    <!-- Progress dialog -->
+    <string name="cleaning_cache">Limpeza de cache</string>
+    <string name="cleaning_in_progress">Limpeza em processo…</string>
+
+    <!-- Toasts -->
+    <string name="cleaned">Cache apagado</string>
+    <string name="toast_could_not_clean">Não foi possível limpar a cache</string>
+    <string name="toast_could_not_clean_reason">Não foi possível limpar a cache: %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings">Configurações</string>
+    <string name="main_preferences">Configurações principais</string>
+    <string name="about">Sobre</string>
+
+    <!-- Clean on app startup preference -->
+    <string name="clean_on_app_startup">Limpar ao iniciar a aplicativo</string>
+    <string name="clean_on_app_startup_summary">Limpar cache ao iniciar a aplicação</string>
+    <string name="clean_on_app_startup_key" translatable="false">clean_on_app_startup</string>
+
+    <!-- Exit after clean up -->
+    <string name="exit_after_clean">Fechar após a limpeza</string>
+    <string name="exit_after_clean_summary">Fechar aplicação depois de terminar a limpeza</string>
+    <string name="exit_after_clean_key" translatable="false">exit_after_clean</string>
+
+    <!-- Clean on system startup preference -->
+    <string name="clean_on_system_startup">Limpar ao iniciar o sistema</string>
+    <string name="clean_on_system_startup_summary">Limpar cache ao iniciar o sistema</string>
+    <string name="clean_on_system_startup_key" translatable="false">clean_on_device_startup</string>
+
+    <!-- About -->
+    <string name="about_app">Sobre o Cleaner</string>
+    <string name="developer">Desenvolvedor</string>
+    <string name="version_number">Número da versão</string>
+    <string name="version_number_unknown">Desconhecido</string>
+    <string name="open_source_licences">Licenças Open Source</string>
+    <string name="special_thanks">Agradecimentos</string>
+    <string name="github" translatable="false">Visite-me no Github</string>
+    <string name="github_desc">Conheça meus projetos no github</string>
+
+    <!-- 'Sort by' preference -->
+    <string name="sort_by_key" translatable="false">sort_by</string>
+
+    <!-- Rationales -->
+    <string name="rationale_title">Permissões insuficientes</string>
+    <string name="rationale_storage">Requer permissão de armazenamento para limpar a cache externa.</string>
 
 </resources>

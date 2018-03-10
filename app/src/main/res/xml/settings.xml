@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+
+    <PreferenceCategory android:title="@string/main_preferences">
+
+        <CheckBoxPreference
+            android:key="@string/clean_on_app_startup_key"
+            android:summary="@string/clean_on_app_startup_summary"
+            android:title="@string/clean_on_app_startup" />
+
+        <CheckBoxPreference
+            android:key="@string/exit_after_clean_key"
+            android:summary="@string/exit_after_clean_summary"
+            android:title="@string/exit_after_clean" />
+
+        <CheckBoxPreference
+            android:key="@string/clean_on_system_startup_key"
+            android:summary="@string/clean_on_system_startup_summary"
+            android:title="@string/clean_on_system_startup" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+
+        <Preference android:title="@string/about_app">
+
+            <intent
+                android:action="com.vanderclin.cleaner.SETTINGS_ABOUT"
+                android:targetClass="com.vanderclin.cleaner.activity.SettingsActivity"
+                android:targetPackage="com.vanderclin.cleaner" />
+
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

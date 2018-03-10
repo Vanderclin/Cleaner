@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="authors_url" translatable="false">https://github.com/Vanderclin</string>
+    <string name="github_project_url" translatable="false">https://github.com/Vanderclin/Cleaner</string>
+
+</resources>
