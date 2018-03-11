@@ -1,6 +1,6 @@
 # Cleaner for Android
 
-[Download Now (./devs/app/Cleaner_1.0.apk)
+[<img alt="Get it on Google Play" height="80" src="./devs/images/download.png">](./devs/app/Cleaner_1.0.apk)
 
 Cleaner e um simples aplicativo para limpeza de cache em seu smartphone android.
 
