@@ -13,12 +13,16 @@ import com.vanderclin.cleaner.R;
 
 public class SplashActivity extends AppCompatActivity
 {
+	TextView mCopyright;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-		//requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.splash_activity);
+		
+		mCopyright = (TextView) findViewById(R.id.splashactivityTextViewDeveloper);
+		mCopyright.setText(getString(R.string.copyright) + " - " + getString(R.string.yaer));
+		
 		Thread myThread = new Thread(){
 			@Override
 			public void run() {

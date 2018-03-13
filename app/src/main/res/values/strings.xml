@@ -3,8 +3,10 @@
 
     <!-- Globals -->
     <string name="app_name">Cleaner</string>
+	<string name="app_version">1.1</string>
     <string name="developer_name" translatable="false">Vanderclin Rocha</string>
-
+	<string name="copyright">Copyright</string>
+	<string name="yaer">2018</string>
     <!-- Menu items -->
     <string name="action_clean">Limpar</string>
     <string name="action_rescan">Analizar</string>
