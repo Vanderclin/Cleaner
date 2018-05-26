@@ -2,7 +2,8 @@
 
 E um simples aplicativo para limpeza de cache em seu disposiyivo android.
 
-[<img alt="Get it on Google Play" height="80" src="./devs/images/download_now.png">](./devs/app/Cleaner_1.0.apk)
+# Download
+[<img alt="Get it on Google Play" height="60" src="./devs/images/download_now.png">](./devs/app/Cleaner_1.0.apk)
 
 # Capture Screen
 ![Sample Screenshot 1](./devs/screenshot/SCREEN_01.png)
