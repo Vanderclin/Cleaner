@@ -6,7 +6,7 @@ E um simples aplicativo para limpeza de cache em seu disposiyivo android.
 [<img alt="Get it on Google Play" height="60" src="./devs/images/download_now.png">](./devs/app/Cleaner_1.0.apk)
 
 # Capture Screen
-![](./devs/screenshot/SCREEN_01.png =250x250)
+<img src="./devs/screenshot/SCREEN_01.png" width="200" height="400" />
 ![Sample Screenshot 1](./devs/screenshot/SCREEN_01.png)
 ![Sample Screenshot 2](./devs/screenshot/SCREEN_02.png)
 ![Sample Screenshot 3](./devs/screenshot/SCREEN_03.png)
