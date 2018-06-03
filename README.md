@@ -8,6 +8,6 @@ E um simples aplicativo para limpeza de cache em seu disposiyivo android.
 # Capture Screen
 [<img src="./devs/screenshot/SCREEN_01.png" width="'180" height="320" />]
 [<img src="./devs/screenshot/SCREEN_02.png" width="'180" height="320" />]
-[<[img src="./devs/screenshot/SCREEN_03.png" width="'180" height="320" />]
+[<img src="./devs/screenshot/SCREEN_03.png" width="'180" height="320" />]
 [<img src="./devs/screenshot/SCREEN_04.png" width="'180" height="320" />]
 [<img src="./devs/screenshot/SCREEN_05.png" width="'180" height="320" />]
