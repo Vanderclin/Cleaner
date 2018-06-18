@@ -196,14 +196,14 @@ public class CleanerService extends Service {
                 } else {
                     countDownLatch.countDown();
                 }
-
+																
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
                     if (isExternalStorageWritable()) {
                         final File externalDataDirectory = new File(Environment
                                 .getExternalStorageDirectory().getAbsolutePath() + "/Android/data");
 
-                        final String externalCachePath = externalDataDirectory.getAbsolutePath() +
-                                "/%s/cache";
+                        final String externalCachePath = externalDataDirectory.getAbsolutePath() + "/%s/cache";
+						
 
                         if (externalDataDirectory.isDirectory()) {
                             final File[] files = externalDataDirectory.listFiles();
